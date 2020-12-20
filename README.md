@@ -26,6 +26,10 @@ By Pooja Bhagat
    * [Company Queries I](./TreeAlgorithms/CompanyQueriesI.cpp)
    * [Company Queries II](./TreeAlgorithms/CompanyQueriesII.cpp)
    * [Distance Queries](./TreeAlgorithms/DistanceQueries.cpp)
+   * [Counting Paths](./TreeAlgorithms/CountingPaths.cpp)
+   * [Subtree Queries](./TreeAlgorithms/SubtreeQueries.cpp)
+   * [Path Queries](./TreeAlgorithms/PathQueries.cpp)
+   * [Distinct Colors](./TreeAlgorithms/DistinctColors.cpp)
 
 7. Mathematics
 
