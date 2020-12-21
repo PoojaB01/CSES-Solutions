@@ -8,6 +8,17 @@ By Pooja Bhagat
    * [Repetitions](./IntroductoryProblems/Repetitions.cpp)
    * [Increasing Array](./IntroductoryProblems/IncreasingArray.cpp)
    * [Permutations](./IntroductoryProblems/Permutations.cpp)
+   * [Number Spiral](./IntroductoryProblems/NumberSpiral.cpp)
+   * [Two Knights](./IntroductoryProblems/TwoKnights.cpp)
+   * [Two Sets](./IntroductoryProblems/TwoSets.cpp)
+   * [Bit Strings](./IntroductoryProblems/BitStrings.cpp)
+   * [Trailing Zeroes](./IntroductoryProblems/TrailingZeroes.cpp)
+   * [Coin Piles](./IntroductoryProblems/CoinPiles.cpp)
+   * [Palindrome Reorder](./IntroductoryProblems/PalindromeReorder.cpp)
+   * [Creating Strings I](./IntroductoryProblems/CreatingStringsI.cpp)
+   * [Apple Division](./IntroductoryProblems/AppleDivision.cpp)
+   * [Chessboard and Queens](./IntroductoryProblems/ChessboardAndQueens.cpp)
+   * [Grid Paths](./IntroductoryProblems/GridPaths.cpp)
 
 2. Sorting and Searching
 
