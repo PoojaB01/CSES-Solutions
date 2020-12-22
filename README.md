@@ -25,7 +25,24 @@ By Pooja Bhagat
 3. Dynamic Programming
 
 4. Graph Algorithms
-
+   * [Counting Rooms](./GraphAlgorithms/CountingRooms.cpp)
+   * [Labyrinth](./GraphAlgorithms/Labyrinth.cpp)
+   * [Building Roads](./GraphAlgorithms/BuildingRoads.cpp)
+   * [Message Route](./GraphAlgorithms/MessageRoute.cpp)
+   * [Building Teams](./GraphAlgorithms/BuildingTeams.cpp)
+   * [Round Trip](./GraphAlgorithms/RoundTrip.cpp)
+   * [Monsters](./GraphAlgorithms/Monsters.cpp)
+   * [Shortest Routes I](./GraphAlgorithms/ShortestRoutesI.cpp)
+   * [Shortest Routes II](./GraphAlgorithms/ShortestRoutesII.cpp)
+   * [High Score](./GraphAlgorithms/HighScore.cpp)
+   * [Flight Discount](./GraphAlgorithms/FlightDiscount.cpp)
+   * [Cycle Finding](./GraphAlgorithms/CycleFinding.cpp)
+   * [Flight Routes](./GraphAlgorithms/FlightRoutes.cpp)
+   * [Round Trip II](./GraphAlgorithms/RoundTripII.cpp)
+   * [Course Schedule](./GraphAlgorithms/CourseSchedule.cpp)
+   * [Longest FLight Route](./GraphAlgorithms/LongestFlightRoute.cpp)
+   * [Game Routes](./GraphAlgorithms/GameRoutes.cpp)
+   
 5. Range Queries
 
 6. Tree Algorithms
