@@ -23,6 +23,21 @@ By Pooja Bhagat
 2. Sorting and Searching
 
 3. Dynamic Programming
+   * [Dice Combinations](./DynamicProgramming/DiceCombinations.cpp)
+   * [Minimizing Coins](./DynamicProgramming/MinimizingCoins.cpp)
+   * [Coin Combinations I](./DynamicProgramming/CoinCombinationsI.cpp)
+   * [Coin Combinations II](./DynamicProgramming/CoinCombinationsII.cpp)
+   * [Removing Digits](./DynamicProgramming/RemovingDigits.cpp)
+   * [Grid Paths](./DynamicProgramming/GridPaths.cpp)
+   * [Book Shop](./DynamicProgramming/BookShop.cpp)
+   * [Array Description](./DynamicProgramming/ArrayDescription.cpp)
+   * [Edit Distance](./DynamicProgramming/EditDistance.cpp)
+   * [Rectangle Cutting](./DynamicProgramming/RectangleCutting.cpp)
+   * [Money Sums](./DynamicProgramming/MoneySums.cpp)
+   * [Removal Game](./DynamicProgramming/RemovalGame.cpp)
+   * [Two Sets II](./DynamicProgramming/TwoSetsII.cpp)
+   * [Increasing Subsequence](./DynamicProgramming/IncreasingSubsequence.cpp)
+   * [Projects](./DynamicProgramming/Projects.cpp)
 
 4. Graph Algorithms
    * [Counting Rooms](./GraphAlgorithms/CountingRooms.cpp)
