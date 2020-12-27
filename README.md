@@ -77,5 +77,12 @@ By Pooja Bhagat
 7. Mathematics
 
 8. String Algorithms
+   * [Word Combinations](./StringAlgorithms/WordCombinations.cpp)
+   * [String Matching](./StringAlgorithms/StringMatching.cpp)
+   * [Finding Borders](./StringAlgorithms/FindingBorders.cpp)
+   * [Finding Periods](./StringAlgorithms/FindingPeriods.cpp)
+   * [Minimal Rotation](./StringAlgorithms/MinimalRotation.cpp)
+   * [Longest Palindrome](./StringAlgorithms/LongestPalindrome.cpp)
+   * [Required Substring](./StringAlgorithms/RequiredSubstring.cpp)
 
 9. Additional Problems
