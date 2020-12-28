@@ -75,6 +75,17 @@ By Pooja Bhagat
    * [Distinct Colors](./TreeAlgorithms/DistinctColors.cpp)
 
 7. Mathematics
+   * [Exponentiation](./Mathematics/Exponentiation.cpp)
+   * [Exponentiation II](./Mathematics/ExponentiationII.cpp)
+   * [Counting Divisors](./Mathematics/CountingDivisors.cpp)
+   * [Common Divisors](./Mathematics/CommonDivisors.cpp)
+   * [Sum of Divisors](./Mathematics/SumofDivisors.cpp)
+   * [Binomial Coefficients](./Mathematics/BinomialCoefficients.cpp)
+   * [Creating Strings II](./Mathematics/CreatingStringsII.cpp)
+   * [Distributing Apples](./Mathematics/DistributingApples.cpp)
+   * [Christmas Party](./Mathematics/ChristmasParty.cpp)
+   * [Fibonacci Numbers](./Mathematics/FibonacciNumbers.cpp)
+   * [Throwing Dice](./Mathematics/ThrowingDice.cpp)
 
 8. String Algorithms
    * [Word Combinations](./StringAlgorithms/WordCombinations.cpp)
