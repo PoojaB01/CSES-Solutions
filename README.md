@@ -86,6 +86,16 @@ By Pooja Bhagat
    * [Christmas Party](./Mathematics/ChristmasParty.cpp)
    * [Fibonacci Numbers](./Mathematics/FibonacciNumbers.cpp)
    * [Throwing Dice](./Mathematics/ThrowingDice.cpp)
+   * [Graph Paths I](./Mathematics/GraphPathsI.cpp)
+   * [Graph Paths II](./Mathematics/GraphPathsII.cpp)
+   * [Dice Probability](./Mathematics/DiceProbability.cpp)
+   * [Moving Robots](./Mathematics/MovingRobots.cpp)
+   * [Candy Lottery](./Mathematics/CandyLottery.cpp)
+   * [Inversion Probability](./Mathematics/InversionProbability.cpp)
+   * [Stick Game](./Mathematics/StickGame.cpp)
+   * [Nim Game I](./Mathematics/NimGameI.cpp)
+   * [Nim Game II](./Mathematics/NimGameII.cpp)
+   * [Stair Game](./Mathematics/StairGame.cpp)
 
 8. String Algorithms
    * [Word Combinations](./StringAlgorithms/WordCombinations.cpp)

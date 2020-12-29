@@ -1,4 +1,4 @@
-// https://cses.fi/problemset/task/1722
+// https://cses.fi/problemset/task/1723
 
 #include <bits/stdc++.h>
 
@@ -6,7 +6,7 @@ using namespace std;
 
 #define lli long long
 
-lli MOD = 1e9 + 7;
+const int MOD = 1e9 + 7;
 
 vector<vector<lli>> Identity(int n)
 {
@@ -27,8 +27,7 @@ vector<vector<lli>> matrixmultiply(vector<vector<lli>> &A, vector<vector<lli>> &
         {
             for (int k = 0; k < p; k++)
             {
-                ans[i][k] += (A[i][j] * B[j][k]) % MOD;
-                ans[i][k] %= MOD;
+                ans[i][k] = (ans[i][k] + (A[i][j] * B[j][k]) % MOD) % MOD;
             }
         }
     }
@@ -41,25 +40,29 @@ vector<vector<lli>> matrixexpo(vector<vector<lli>> &A, int n, lli pow)
     {
         return Identity(n);
     }
-    vector<vector<lli>> B = matrixexpo(A, n, pow / 2);
-    B = matrixmultiply(B, B, n, n, n);
-    if (pow & 1)
+    vector<vector<lli>> B = Identity(n);
+    while (pow > 0)
     {
-        B = matrixmultiply(A, B, n, n, n);
+        if (pow & 1)
+            B = matrixmultiply(A, B, n, n, n);
+        pow = pow >> 1;
+        A = matrixmultiply(A, A, n, n, n);
     }
     return B;
 }
 
 void solve()
 {
-    lli n;
-    cin >> n;
-
-    vector<vector<lli>> A = {{1, 1}, {1, 0}};
-
-    vector<vector<lli>> ans = matrixexpo(A, 2, n);
-
-    cout << ans[1][0] << endl;
+    lli n, m, k, x, y;
+    cin >> n >> m >> k;
+    vector<vector<lli>> path(n, vector<lli>(n, 0));
+    for (int i = 0; i < m; i++)
+    {
+        cin >> x >> y;
+        path[x - 1][y - 1]++;
+    }
+    path = matrixexpo(path, n, k);
+    cout << path[0][n - 1] << endl;
 }
 
 int main()

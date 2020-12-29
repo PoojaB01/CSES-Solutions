@@ -39,7 +39,7 @@ vector<vector<lli>> matrixexpo(vector<vector<lli>> &A, int n, lli pow)
 {
     if (pow == 0)
     {
-        return Identity(6);
+        return Identity(n);
     }
     vector<vector<lli>> B = matrixexpo(A, n, pow / 2);
     B = matrixmultiply(B, B, n, n, n);
