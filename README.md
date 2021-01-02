@@ -21,6 +21,18 @@ By Pooja Bhagat
    * [Grid Paths](./IntroductoryProblems/GridPaths.cpp)
 
 2. Sorting and Searching
+   * [Distinct Numbers](./SortingandSearching/DistinctNumbers.cpp)
+   * [Apartments](./SortingandSearching/Apartments.cpp)
+   * [Ferris Wheel](./SortingandSearching/FerrisWheel.cpp)
+   * [Concert Tickets](./SortingandSearching/ConcertTickets.cpp)
+   * [Restaurant Customers](./SortingandSearching/RestaurantCustomers.cpp)
+   * [Movie Festival](./SortingandSearching/MovieFestival.cpp)
+   * [Sum of Two Values](./SortingandSearching/SumofTwoValues.cpp)
+   * [Maximum Subarray Sum](./SortingandSearching/MaximumSubarraySum.cpp)
+   * [Stick Lengths](./SortingandSearching/StickLengths.cpp)
+   * [Playlist](./SortingandSearching/Playlist.cpp)
+   * [Towers](./SortingandSearching/Towers.cpp)
+   * [Traffic Lights](./SortingandSearching/TrafficLights.cpp)
 
 3. Dynamic Programming
    * [Dice Combinations](./DynamicProgramming/DiceCombinations.cpp)
