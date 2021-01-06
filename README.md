@@ -105,6 +105,22 @@ By Pooja Bhagat
    * [Distinct Routes](./GraphAlgorithms/DistinctRoutes.cpp)
    
 5. Range Queries
+   * [Range Sum Queries I](./RangeQueries/RangeSumQueriesI.cpp)
+   * [Range Minimum Queries I](./RangeQueries/RangeMinimumQueriesI.cpp)
+   * [Range Sum Queries II](./RangeQueries/RangeSumQueriesII.cpp)
+   * [Range Minimum Queries II](./RangeQueries/RangeMinimumQueriesII.cpp)
+   * [Range XOR Queries](./RangeQueries/RangeXORQueries.cpp)
+   * [Range Update Queries](./RangeQueries/RangeUpdateQueries.cpp)
+   * [Forest Queries](./RangeQueries/ForestQueries.cpp)
+   * [Hotel Queries](./RangeQueries/HotelQueries.cpp)
+   * [List Removals](./RangeQueries/ListRemovals.cpp)
+   * [Salary Queries](./RangeQueries/SalaryQueries.cpp)
+   * [Subarray Sum Queries](./RangeQueries/SubarraySumQueries.cpp)
+   * [Distinct Values Queries](./RangeQueries/DistinctValuesQueries.cpp)
+   * [Forest Queries II](./RangeQueries/ForestQueriesII.cpp)
+   * [Range Updates and Sums](./RangeQueries/RangeUpdatesandSums.cpp)
+   * [Polynomial Queries](./RangeQueries/PolynomialQueries.cpp)
+   * [Range Queries and Copies](./RangeQueries/RangeQueriesandCopies.cpp)
 
 6. Tree Algorithms
    * [Subordinates](./TreeAlgorithms/Subordinates.cpp)
