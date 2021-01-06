@@ -15,9 +15,12 @@ By Pooja Bhagat
    * [Trailing Zeroes](./IntroductoryProblems/TrailingZeroes.cpp)
    * [Coin Piles](./IntroductoryProblems/CoinPiles.cpp)
    * [Palindrome Reorder](./IntroductoryProblems/PalindromeReorder.cpp)
+   * [Gray Code](./IntroductoryProblems/GrayCode.cpp)
+   * [Tower of Hanoi](./IntroductoryProblems/TowerofHanoi.cpp)
    * [Creating Strings I](./IntroductoryProblems/CreatingStringsI.cpp)
    * [Apple Division](./IntroductoryProblems/AppleDivision.cpp)
    * [Chessboard and Queens](./IntroductoryProblems/ChessboardAndQueens.cpp)
+   * [Digit Queries](./IntroductoryProblems/DigitQueries.cpp)
    * [Grid Paths](./IntroductoryProblems/GridPaths.cpp)
 
 2. Sorting and Searching
