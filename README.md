@@ -67,7 +67,7 @@ By Pooja Bhagat
 </details>
 
 <details>
-<summary> Dynmaic Programming </summary>
+<summary> Dynamic Programming </summary>
 
    * [Dice Combinations](./DynamicProgramming/DiceCombinations.cpp)
    * [Minimizing Coins](./DynamicProgramming/MinimizingCoins.cpp)
