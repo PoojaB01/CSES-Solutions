@@ -2,7 +2,9 @@
 
 By Pooja Bhagat
 
-1. Introductory Problems
+<details>
+<summary> Introductory Problems </summary> 
+
    * [Weird Algorithm](./IntroductoryProblems/WeirdAlgorithm.cpp)
    * [Missing Number](./IntroductoryProblems/MissingNumber.cpp)
    * [Repetitions](./IntroductoryProblems/Repetitions.cpp)
@@ -22,8 +24,11 @@ By Pooja Bhagat
    * [Chessboard and Queens](./IntroductoryProblems/ChessboardAndQueens.cpp)
    * [Digit Queries](./IntroductoryProblems/DigitQueries.cpp)
    * [Grid Paths](./IntroductoryProblems/GridPaths.cpp)
+</details>
 
-2. Sorting and Searching
+<details>
+<summary> Sorting and Searching </summary>
+
    * [Distinct Numbers](./SortingandSearching/DistinctNumbers.cpp)
    * [Apartments](./SortingandSearching/Apartments.cpp)
    * [Ferris Wheel](./SortingandSearching/FerrisWheel.cpp)
@@ -33,9 +38,16 @@ By Pooja Bhagat
    * [Sum of Two Values](./SortingandSearching/SumofTwoValues.cpp)
    * [Maximum Subarray Sum](./SortingandSearching/MaximumSubarraySum.cpp)
    * [Stick Lengths](./SortingandSearching/StickLengths.cpp)
+   * [Missing Coin Sum](./SortingandSearching/MissingCoinSum.cpp)
+   * [Collecting Numbers](./SortingandSearching/CollectingNumbers.cpp)
+   * [Collecting Numbers II](./SortingandSearching/CollectingNumbersII.cpp)
    * [Playlist](./SortingandSearching/Playlist.cpp)
    * [Towers](./SortingandSearching/Towers.cpp)
    * [Traffic Lights](./SortingandSearching/TrafficLights.cpp)
+   * [Josephus Problem I](./SortingandSearching/JosephusProblemI.cpp)
+   * [Josephus Problem II](./SortingandSearching/JosephusProblemII.cpp)
+   * [Nested Ranges Check](./SortingandSearching/NestedRangesCheck.cpp)
+   * [Nested Ranges Count](./SortingandSearching/NestedRangesCount.cpp)
    * [Room Allocation](./SortingandSearching/RoomAllocation.cpp)
    * [Factory Machines](./SortingandSearching/FactoryMachines.cpp)
    * [Tasks and Deadlines](./SortingandSearching/TasksandDeadlines.cpp)
@@ -46,13 +58,17 @@ By Pooja Bhagat
    * [Subarray Sums I](./SortingandSearching/SubarraySumsI.cpp)
    * [Subarray Sums II](./SortingandSearching/SubarraySumsII.cpp)
    * [Subarray Divisibility](./SortingandSearching/SubarrayDivisibility.cpp)
+   * [Subarray Distinct Values](./SortingandSearching/SubarrayDistinctValues.cpp)
    * [Array Division](./SortingandSearching/ArrayDivision.cpp)
    * [Sliding Median](./SortingandSearching/SlidingMedian.cpp)
    * [Sliding Cost](./SortingandSearching/SlidingCost.cpp)
    * [Movie Festival II](./SortingandSearching/MovieFestivalII.cpp)
    * [Maximum Subarray Sum II](./SortingandSearching/MaximumSubarraySumII.cpp)
+</details>
 
-3. Dynamic Programming
+<details>
+<summary> Dynmaic Programming </summary>
+
    * [Dice Combinations](./DynamicProgramming/DiceCombinations.cpp)
    * [Minimizing Coins](./DynamicProgramming/MinimizingCoins.cpp)
    * [Coin Combinations I](./DynamicProgramming/CoinCombinationsI.cpp)
@@ -68,8 +84,11 @@ By Pooja Bhagat
    * [Two Sets II](./DynamicProgramming/TwoSetsII.cpp)
    * [Increasing Subsequence](./DynamicProgramming/IncreasingSubsequence.cpp)
    * [Projects](./DynamicProgramming/Projects.cpp)
+</details>
 
-4. Graph Algorithms
+<details>
+<summary> Graph Algorithms </summary>
+
    * [Counting Rooms](./GraphAlgorithms/CountingRooms.cpp)
    * [Labyrinth](./GraphAlgorithms/Labyrinth.cpp)
    * [Building Roads](./GraphAlgorithms/BuildingRoads.cpp)
@@ -106,8 +125,11 @@ By Pooja Bhagat
    * [Police Chase](./GraphAlgorithms/PoliceChase.cpp)
    * [School Dance](./GraphAlgorithms/SchoolDance.cpp)
    * [Distinct Routes](./GraphAlgorithms/DistinctRoutes.cpp)
-   
-5. Range Queries
+</details>
+
+<details>
+<summary> Range Queries </summary>
+
    * [Range Sum Queries I](./RangeQueries/RangeSumQueriesI.cpp)
    * [Range Minimum Queries I](./RangeQueries/RangeMinimumQueriesI.cpp)
    * [Range Sum Queries II](./RangeQueries/RangeSumQueriesII.cpp)
@@ -124,8 +146,11 @@ By Pooja Bhagat
    * [Range Updates and Sums](./RangeQueries/RangeUpdatesandSums.cpp)
    * [Polynomial Queries](./RangeQueries/PolynomialQueries.cpp)
    * [Range Queries and Copies](./RangeQueries/RangeQueriesandCopies.cpp)
+</details>
 
-6. Tree Algorithms
+<details>
+<summary> Tree Algorithms </summary>
+
    * [Subordinates](./TreeAlgorithms/Subordinates.cpp)
    * [Tree Matching](./TreeAlgorithms/TreeMatching.cpp)
    * [Tree Diameter](./TreeAlgorithms/TreeDiameter.cpp)
@@ -138,8 +163,11 @@ By Pooja Bhagat
    * [Subtree Queries](./TreeAlgorithms/SubtreeQueries.cpp)
    * [Path Queries](./TreeAlgorithms/PathQueries.cpp)
    * [Distinct Colors](./TreeAlgorithms/DistinctColors.cpp)
+</details>
 
-7. Mathematics
+<details>
+<summary> Mathematics </summary>
+
    * [Exponentiation](./Mathematics/Exponentiation.cpp)
    * [Exponentiation II](./Mathematics/ExponentiationII.cpp)
    * [Counting Divisors](./Mathematics/CountingDivisors.cpp)
@@ -161,8 +189,11 @@ By Pooja Bhagat
    * [Nim Game I](./Mathematics/NimGameI.cpp)
    * [Nim Game II](./Mathematics/NimGameII.cpp)
    * [Stair Game](./Mathematics/StairGame.cpp)
+</details>
 
-8. String Algorithms
+<details>
+<summary> String Algorithms </summary>
+
    * [Word Combinations](./StringAlgorithms/WordCombinations.cpp)
    * [String Matching](./StringAlgorithms/StringMatching.cpp)
    * [Finding Borders](./StringAlgorithms/FindingBorders.cpp)
@@ -170,5 +201,16 @@ By Pooja Bhagat
    * [Minimal Rotation](./StringAlgorithms/MinimalRotation.cpp)
    * [Longest Palindrome](./StringAlgorithms/LongestPalindrome.cpp)
    * [Required Substring](./StringAlgorithms/RequiredSubstring.cpp)
+</details>
 
-9. Additional Problems
+<details>
+<summary> Geometry </summary>
+</details>
+
+<details>
+<summary> Advanced Techniques </summary>
+</details>
+
+<details>
+<summary> Additional Problems </summary>
+</details>
