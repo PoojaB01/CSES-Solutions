@@ -5,6 +5,64 @@
 using namespace std;
 
 #define lli long long
+#define MAXN 1000000
+
+vector<int> tree[MAXN];
+
+vector<int> merge(vector<int> &a, vector<int> &b)
+{
+    int n = a.size(), m = b.size();
+    int i = 0, j = 0;
+    vector<int> v;
+    while (i < n && j < m)
+    {
+        if (a[i] < b[j])
+            v.push_back(a[i++]);
+        else
+            v.push_back(b[j++]);
+    }
+    while (i < n)
+    {
+        v.push_back(a[i++]);
+    }
+    while (j < m)
+    {
+        v.push_back(b[j++]);
+    }
+    return v;
+}
+
+void build(vector<int> &a, int start, int end, int index)
+{
+    if (start == end)
+    {
+        tree[index].push_back(a[start]);
+        return;
+    }
+
+    int mid = (start + end) / 2;
+
+    build(a, start, mid, 2 * index);
+    build(a, mid + 1, end, 2 * index + 1);
+
+    tree[index] = merge(tree[2 * index], tree[2 * index + 1]);
+}
+
+int query(int left, int right, int k, int start, int end, int index)
+{
+    if (right < start || left > end)
+    {
+        return 0;
+    }
+    if (start >= left and end <= right)
+    {
+        return (tree[index].end() - upper_bound(tree[index].begin(), tree[index].end(), k));
+    }
+
+    int mid = (start + end) / 2;
+    return (query(left, right, k, start, mid, 2 * index) +
+            query(left, right, k, mid + 1, end, 2 * index + 1));
+}
 
 int d = 0;
 
@@ -23,34 +81,18 @@ int preorder(int x, int p, vector<int> e[], vector<pair<pair<int, int>, int>> &q
     return t + 1;
 }
 
-bool cmp(pair<pair<int, int>, int> &a, pair<pair<int, int>, int> &b)
-{
-    if (a.first.first / d == b.first.first / d)
-    {
-        return a.first.second < b.first.second;
-    }
-    else
-        return a.first.first / d < b.first.first / d;
-}
-
 void solve()
 {
     int n;
     cin >> n;
     vector<int> c(n);
-    unordered_map<int, int> m;
+    map<int, int> m;
     int k = 0;
 
     for (int i = 0; i < n; i++)
     {
         cin >> c[i];
-        if (m.find(c[i]) == m.end())
-        {
-            m[c[i]] = k++;
-        }
-        c[i] = m[c[i]];
     }
-
     d = sqrt(n);
 
     vector<int> e[n];
@@ -62,52 +104,28 @@ void solve()
         e[y - 1].push_back(x - 1);
     }
 
-    vector<int> cc(k, 0);
     vector<pair<pair<int, int>, int>> q;
     vector<int> pre(n);
+    vector<int> a(n, n + 1);
+    m.clear();
 
     k = 0;
     preorder(0, 0, e, q, pre, k);
-
-    sort(q.begin(), q.end(), cmp);
-
     for (int i = 0; i < n; i++)
     {
-        pre[i] = c[pre[i]];
+        x = c[pre[i]];
+        if (m.find(x) != m.end())
+        {
+            a[m[x]] = i;
+        }
+        m[x] = i;
     }
-
-    int start = 0, end = 0;
-    cc[c[0]]++;
-    k = 1;
+    build(a, 0, n - 1, 1);
     vector<int> ans(n);
 
     for (int i = 0; i < n; i++)
     {
-        while (end < q[i].first.second)
-        {
-            end++;
-            if (++cc[pre[end]] == 1)
-                k++;
-        }
-        while (start > q[i].first.first)
-        {
-            start--;
-            if (++cc[pre[start]] == 1)
-                k++;
-        }
-        while (start < q[i].first.first)
-        {
-            if (--cc[pre[start]] == 0)
-                k--;
-            start++;
-        }
-        while (end > q[i].first.second)
-        {
-            if (--cc[pre[end]] == 0)
-                k--;
-            end--;
-        }
-        ans[q[i].second] = k;
+        ans[q[i].second] = query(q[i].first.first, q[i].first.second, q[i].first.second, 0, n - 1, 1);
     }
     for (int i = 0; i < n; i++)
     {

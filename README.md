@@ -165,7 +165,11 @@ By Pooja Bhagat
    * [Counting Paths](./TreeAlgorithms/CountingPaths.cpp)
    * [Subtree Queries](./TreeAlgorithms/SubtreeQueries.cpp)
    * [Path Queries](./TreeAlgorithms/PathQueries.cpp)
+   * [Path Queries II]
    * [Distinct Colors](./TreeAlgorithms/DistinctColors.cpp)
+   * [Finding a Centroid]
+   * [Fixed-Length Paths I]
+   * [Fixed-Length Paths II]
 </details>
 
 <details>

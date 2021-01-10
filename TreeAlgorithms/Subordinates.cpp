@@ -42,9 +42,9 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    lli q = 1;
+    int q = 1;
     // cin>>q;
-    for (lli tc = 1; tc <= q; tc++)
+    for (int tc = 1; tc <= q; tc++)
     {
         solve();
     }
