@@ -77,6 +77,7 @@ By Pooja Bhagat
    * [Grid Paths](./DynamicProgramming/GridPaths.cpp)
    * [Book Shop](./DynamicProgramming/BookShop.cpp)
    * [Array Description](./DynamicProgramming/ArrayDescription.cpp)
+   * [Counting Towers](./DynamicProgramming/CountingTowers.cpp)
    * [Edit Distance](./DynamicProgramming/EditDistance.cpp)
    * [Rectangle Cutting](./DynamicProgramming/RectangleCutting.cpp)
    * [Money Sums](./DynamicProgramming/MoneySums.cpp)
@@ -84,6 +85,9 @@ By Pooja Bhagat
    * [Two Sets II](./DynamicProgramming/TwoSetsII.cpp)
    * [Increasing Subsequence](./DynamicProgramming/IncreasingSubsequence.cpp)
    * [Projects](./DynamicProgramming/Projects.cpp)
+   * [Elevator Rides](./DynamicProgramming/ElevatorRides.cpp)
+   * [Counting Tilings](./DynamicProgramming/CountingTilings.cpp)
+   * [Counting Numbers](./DynamicProgramming/CountingNumbers.cpp)
 </details>
 
 <details>
