@@ -216,6 +216,14 @@ By Pooja Bhagat
 
 <details>
 <summary> Geometry </summary>
+
+   * [Point Location Test](./Geometry/PointLocationTest.cpp)
+   * [Line Segment Intersection](./Geometry/LineSegmentIntersection.cpp)
+   * [Polygon Area](./Geometry/PolygonArea.cpp)
+   * [Point in Polygon](./Geometry/PointinPolygon.cpp)
+   * [Polygon Lattice Points](./Geometry/PolygonLatticePoints.cpp)
+   * [Minimum Euclidean Distance](./Geometry/MinimumEuclideanDistance.cpp)
+   * [Convex Hull](./Geometry/ConvexHull.cpp)
 </details>
 
 <details>
