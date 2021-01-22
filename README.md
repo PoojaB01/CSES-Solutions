@@ -179,15 +179,23 @@ By Pooja Bhagat
 <details>
 <summary> Mathematics </summary>
 
+   * [Josephus Queries](./Mathematics/JosephusQueries.cpp)
    * [Exponentiation](./Mathematics/Exponentiation.cpp)
    * [Exponentiation II](./Mathematics/ExponentiationII.cpp)
    * [Counting Divisors](./Mathematics/CountingDivisors.cpp)
    * [Common Divisors](./Mathematics/CommonDivisors.cpp)
    * [Sum of Divisors](./Mathematics/SumofDivisors.cpp)
+   * [Divisor Analysis](./Mathematics/DivisorAnalysis.cpp)
+   * [Prime Multiples](./Mathematics/PrimeMultiples.cpp)
+   * [Counting Coprime Pairs](./Mathematics/CountingCoprimePairs.cpp)
    * [Binomial Coefficients](./Mathematics/BinomialCoefficients.cpp)
    * [Creating Strings II](./Mathematics/CreatingStringsII.cpp)
    * [Distributing Apples](./Mathematics/DistributingApples.cpp)
    * [Christmas Party](./Mathematics/ChristmasParty.cpp)
+   * [Bracket Sequences I](./Mathematics/BracketSequencesI.cpp)
+   * [Bracket Sequences II](./Mathematics/BracketSequencesII.cpp)
+   * [Counting Necklaces](./Mathematics/CountingNecklaces.cpp)
+   * [Counting Grids](./Mathematics/CountingGrids.cpp)
    * [Fibonacci Numbers](./Mathematics/FibonacciNumbers.cpp)
    * [Throwing Dice](./Mathematics/ThrowingDice.cpp)
    * [Graph Paths I](./Mathematics/GraphPathsI.cpp)
@@ -200,6 +208,8 @@ By Pooja Bhagat
    * [Nim Game I](./Mathematics/NimGameI.cpp)
    * [Nim Game II](./Mathematics/NimGameII.cpp)
    * [Stair Game](./Mathematics/StairGame.cpp)
+   * [Grundy's Game](./Mathematics/GrundysGame.cpp)
+   * [Another Game](./Mathematics/AnotherGame.cpp)
 </details>
 
 <details>
