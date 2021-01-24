@@ -64,8 +64,6 @@ int query(int left, int right, int k, int start, int end, int index)
             query(left, right, k, mid + 1, end, 2 * index + 1));
 }
 
-int d = 0;
-
 int preorder(int x, int p, vector<int> e[], vector<pair<pair<int, int>, int>> &q, vector<int> &pre, int &k)
 {
     pre[k++] = x;
@@ -93,8 +91,6 @@ void solve()
     {
         cin >> c[i];
     }
-    d = sqrt(n);
-
     vector<int> e[n];
     int x, y;
     for (int i = 0; i < n - 1; i++)

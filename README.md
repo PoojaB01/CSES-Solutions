@@ -1,7 +1,5 @@
 # CSES-Solutions
 
-By Pooja Bhagat
-
 <details>
 <summary> Introductory Problems </summary> 
 
@@ -22,7 +20,7 @@ By Pooja Bhagat
    * [Creating Strings I](./IntroductoryProblems/CreatingStringsI.cpp)
    * [Apple Division](./IntroductoryProblems/AppleDivision.cpp)
    * [Chessboard and Queens](./IntroductoryProblems/ChessboardAndQueens.cpp)
-   * [Digit Queries](./IntroductoryProblems/DigitQueries.cpp)
+   * [Digit Queries](./Introhttps://www.youtube.com/watch?v=ic1l36GrNOU&ab_channel=NiallHoranVEVOductoryProblems/DigitQueries.cpp)
    * [Grid Paths](./IntroductoryProblems/GridPaths.cpp)
 </details>
 
@@ -169,11 +167,11 @@ By Pooja Bhagat
    * [Counting Paths](./TreeAlgorithms/CountingPaths.cpp)
    * [Subtree Queries](./TreeAlgorithms/SubtreeQueries.cpp)
    * [Path Queries](./TreeAlgorithms/PathQueries.cpp)
-   * [Path Queries II]
+   * [Path Queries II](./TreeAlgorithms/PathQueriesII.cpp)
    * [Distinct Colors](./TreeAlgorithms/DistinctColors.cpp)
-   * [Finding a Centroid]
-   * [Fixed-Length Paths I]
-   * [Fixed-Length Paths II]
+   * [Finding a Centroid](./TreeAlgorithms/FindingaCentroid.cpp)
+   * [Fixed-Length Paths I](./TreeAlgorithms/FixedLengthPathsI.cpp)
+   * [Fixed-Length Paths II](./TreeAlgorithms/FixedLengthPathsII.cpp)
 </details>
 
 <details>
